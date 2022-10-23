@@ -7,7 +7,7 @@ public class Main {
 
         double height = 1.58;
 
-        double bodyMassIndex = service.calculate(weight,height);
+        double bodyMassIndex = service.calculate(weight, height);
 
         System.out.println("Индекс массы тела: " + bodyMassIndex);
 
